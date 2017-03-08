@@ -1,5 +1,6 @@
-setxkbmap gb &
-xrandr --output HDMI-2 --left-of HDMI-1 &
-xbindkeys &
-compton --backend glx --paint-on-overlay --vsync opengl-swc &
+#!/bin/sh
+
+[ -f /etc/xprofile ] && . /etc/xprofile
+[ -f ~/.xprofile ] && . ~/.xprofile
+
 exec i3

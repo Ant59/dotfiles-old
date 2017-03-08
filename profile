@@ -1,2 +1,2 @@
-export PATH=~/.npm-global/bin:/home/antony/Go/bin:$PATH
+export PATH=~/.npm-global/bin:$HOME/.yarn/bin:$HOME/Go/bin:$PATH
 export GOPATH=/home/antony/Go

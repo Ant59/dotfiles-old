@@ -1,0 +1,4 @@
+xrdb ~/.Xresources &
+xrandr --output HDMI-1 --right-of HDMI-2 &
+xbindkeys &
+compton --backend glx --paint-on-overlay --vsync opengl-swc &

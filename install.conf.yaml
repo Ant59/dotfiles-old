@@ -1,60 +1,16 @@
 - clean: ['~']
 
 - link:
-    ~/.profile:
-        path: profile
-        create: false
-        relink: false
-        force: false
-    ~/.bash_profile:
-        path: bash_profile
-        create: false
-        relink: false
-        force: false
-    ~/.bashrc:
-        path: bashrc
-        create: false
-        relink: false
-        force: false
-    ~/.bash_logout:
-        path: bash_logout
-        create: false
-        relink: false
-        force: false
-    ~/.conkyrc:
-        path: conkyrc
-        create: false
-        relink: false
-        force: false
-    ~/.gitconfig:
-        path: gitconfig
-        create: false
-        relink: false
-        force: false
-    ~/.zprofile:
-        path: zprofile
-        create: false
-        relink: false
-        force: false
-    ~/.zshrc:
-        path: zshrc
-        create: false
-        relink: false
-        force: false
-    ~/.Xresources:
-        path: Xresources
-        create: false
-        relink: false
-        force: false
-    ~/.xinitrc:
-        path: xinitrc
-        create: false
-        relink: false
-        force: false
+    ~/.profile: profile
+    ~/.gitconfig: gitconfig
+    ~/.zprofile: zprofile
+    ~/.zshrc: zshrc
+    ~/.xprofile: xprofile
+    ~/.Xresources: Xresources
+    ~/.xinitrc: xinitrc
     ~/.i3:
         path: i3/
         create: true
-        relink: false
-        force: false
-
-
+    ~/.config/polybar:
+        path: polybar/
+        create: true
